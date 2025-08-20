@@ -1,0 +1,64 @@
+.story a{ display: block;
+    color:$primary-400 ;
+     text-decoration: underline;
+    text-underline-offset: 4px;
+    
+}
+
+.hero-header{
+    text-align: center;
+    padding-top: 152px;
+    padding-bottom: 152px;
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week1/hero.png?raw=true)
+    ;
+    background-size: cover;
+    background-repeat:no-repeat;
+    margin-top: 0px;
+    margin-bottom: 0px;
+     background-position: center center;
+}
+.eng-title{
+    font-size: 28px;
+}
+.quote{
+    border-radius: 12px;
+    text-align: center;
+}
+.story-img{
+max-width: 1076px;
+margin-right: -110px;
+margin-left: -110px;
+}
+.section-lined{
+    border-bottom: 1px solid $neutral-300;
+}
+.history-desc{
+    border-left: 1px solid $neutral-900;
+    padding-left: 8px;
+}
+.histroy-list{
+list-style-type: disc;
+   padding-left: 24px;
+}
+.values-list{
+    border-left: 3px solid $neutral-300;
+    padding-left: 12px; 
+}
+.bi{
+padding-right: 8px;
+vertical-align: bottom;
+}
+
+@media  (max-width:767px ) {
+    .hero-header-sm{
+    padding: 87px 0;
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/hero-sm.png?raw=true);
+}
+.eng-title{
+    font-size: 20px;
+
+}
+.quote{
+    text-align: left;
+}
+}

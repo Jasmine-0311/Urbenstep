@@ -1,0 +1,45 @@
+.btn{
+    border-radius: 4px;
+    padding: 12px 24px;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+.btn-primary{
+    background-color: $neutral-900;
+    border-radius: 4px;
+    padding: 12px 24px;
+    color: $neutral-0;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-secondary{
+    background-color: $primary-300;
+    border-radius: 4px;
+    padding: 12px 24px;
+    color: $neutral-900;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+}
+
+
+@media(max-width:576px){
+    .btn{padding: 8px 16px;}
+}
+
+@media(max-width:576px){
+    .btn-primary, .btn-secondary{
+        padding: 12px 24px;
+        font-size: 16px;
+    }
+}

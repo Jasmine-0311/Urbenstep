@@ -1,0 +1,18 @@
+.category .picked{
+    display: block;
+    color:$primary-400;
+     text-decoration: none;
+    font-weight: 500; 
+}
+
+.page-item .btn {
+    padding: 8px 15px;
+    border-radius: 0;
+}
+
+.page-item .picked {
+    padding: 8px 15px;
+    border-radius: 0;
+    font-weight: 500;
+    background-color: $primary-300;
+}

@@ -1,0 +1,106 @@
+/**引入字體**/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+
+.display1{
+font-size: 64px;
+line-height: 1.2;
+font-weight: 700;
+}
+.display2{
+font-size: 48px;
+line-height: 1.2;
+font-weight: 500;
+}
+.h1{
+font-size: 40px;
+line-height: 1.2;
+font-weight: 700;
+}
+.h2{
+font-size: 32px;
+line-height: 1.2;
+font-weight: 700;
+}
+.h3{
+font-size: 28px;
+line-height: 1.2;
+font-weight: 700;
+}
+.h4{
+font-size: 24px;
+line-height: 1.2;
+font-weight: 700;
+}
+.h5{
+font-size: 20px;
+line-height: 1.2;
+font-weight: 700;
+}
+.h6{
+font-size: 16px;
+line-height: 1.2;
+font-weight: 700;
+}
+.text-lg{
+    font-size: 20px;
+}
+.text-md{
+ font-size: 16px;
+font-weight: 400;   
+line-height: 1.5;
+}
+
+.text-sm{
+ font-size: 14px;
+font-weight: 400;   
+}
+
+.text-primary-400{
+    color: $primary-400;
+}
+.text-primary-300{
+    color: $primary-300;
+}
+.text-neutarl-600{
+    color: $neutral-600;
+}
+.text-neutarl-500{
+    color: $neutral-500;
+}
+.text-neutarl-300{
+    color: $neutral-300;
+}
+
+.text-white{
+    color: $neutral-0;
+}
+.text-danger{
+    color: $danger-300;
+}
+.deco-through{
+    text-decoration:line-through;
+}
+
+@media(max-width: 767px) {
+    .h2-md{
+    font-size: 32px;
+    font-weight: 700;
+    }
+    .h3-md{
+    font-size: 28px;
+    }
+    .h4-mb{font-size: 24px;
+    font-weight: 700;}
+    .h5-mb{font-size: 20px;
+    font-weight: 700;}
+    .h6-mb{font-size: 16px;}
+    .p-mb-24{
+        font-size: 24px;
+    }
+}
+@media(max-width: 576px) {
+    .h3-sm{
+    font-size: 28px;}
+    .h5-sm{font-size: 20px;
+   }
+}
