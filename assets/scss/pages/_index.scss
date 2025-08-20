@@ -2,7 +2,7 @@
     padding: 288px 0;
     padding-left:200px ;
     color: white;
-    background-image: url(/Users/jasmine/Desktop/web-layout-training-vite-main/assets/images/Banner-lg.png);
+    background-image: url(/assets/images/Banner-lg.png);
     background-size:cover;
     background-repeat:no-repeat;
     margin-top: 0px;
@@ -16,7 +16,7 @@
         padding-bottom: 155px;
         padding-left: 24px;
         padding-right: 24px;
-        background-image:url(/Users/jasmine/Desktop/web-layout-training-vite-main/assets/images/Banner-sm.png);
+        background-image:url(/assets/images/Banner-sm.png);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
@@ -41,7 +41,7 @@
 
 .co-banner{
     text-align: center;
-    background-image:url('/Users/jasmine/Desktop/web-layout-training-vite-main/assets/images/image-30.png') ;
+    background-image:url(/assets/images/image-30.png) ;
     padding:  100px 0;
     background-size:cover;
     background-repeat:no-repeat;
@@ -67,7 +67,7 @@
 @media(max-width: 767px){
     .co-banner{
         padding:  64px 0;
-        background-image:url('/Users/jasmine/Desktop/web-layout-training-vite-main/assets/images/768DB15E-007A-4C29-AF40-303B53B5BB9B 1.png') ;
+        background-image:url(/assets/images/768DB15E-007A-4C29-AF40-303B53B5BB9B\ 1.png) ;
         overflow: hidden;
     }
     .star-img{
